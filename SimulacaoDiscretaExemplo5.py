@@ -1,3 +1,9 @@
+'''
+
+ Gráfico de barras do número médio de clientes em espera na fila para cada recurso ao longo do tempo.
+ Isso pode ajudar a identificar quais recursos têm filas mais longas e onde é necessário dedicar mais atenção.
+'''
+
 import simpy
 import random
 import matplotlib.pyplot as plt
